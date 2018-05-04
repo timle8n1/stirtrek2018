@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0711A526D59D1A83CC0DC9AE /* Pods_CodeMashCNNDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 031AEE8D331DCD4735D9BB65 /* Pods_CodeMashCNNDemo.framework */; };
 		E74DD3542005B7BC000D83D5 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = E74DD3532005B7BC000D83D5 /* 3.png */; };
 		E74DD3562005B7E8000D83D5 /* 4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E74DD3552005B7E8000D83D5 /* 4.jpeg */; };
 		E74DD3582005B7EC000D83D5 /* 8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E74DD3572005B7EC000D83D5 /* 8.jpeg */; };
@@ -43,7 +42,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0711A526D59D1A83CC0DC9AE /* Pods_CodeMashCNNDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,8 +112,6 @@
 				E78C10092001541500CD15AD /* Sources */,
 				E78C100A2001541500CD15AD /* Frameworks */,
 				E78C100B2001541500CD15AD /* Resources */,
-				0944D8CF02A53D5A616B9CD0 /* [CP] Embed Pods Frameworks */,
-				0C11575139FDBDA5D7F5327E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -177,39 +173,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0944D8CF02A53D5A616B9CD0 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-CodeMashCNNDemo/Pods-CodeMashCNNDemo-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GPUImage/GPUImage.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GPUImage.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CodeMashCNNDemo/Pods-CodeMashCNNDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		0C11575139FDBDA5D7F5327E /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CodeMashCNNDemo/Pods-CodeMashCNNDemo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		1B39842BC07E2F1FF10FE1A7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
